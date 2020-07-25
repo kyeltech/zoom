@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+
+App{
+  height: 100%;
+  font-family: "Lato", sans-serif;
+}
+
+.home{
+  background-color:"#f0643087";
+   height:"auto%"}
+.App {
+  text-align: center;
+  font-family: sans-serif;
+}
+ link:link{
+background-color: blakc;
+color: #f06430;
+}
+.carder{
+  /* background-color: #000000; */
+  padding: 3 4 3 0% ;
+}
+.cards{
+  padding: 3 4 3 0% ;
+}
+.carders{
+  padding: 3 4 3 0% ;
+}
+.bg{
+  background-image: url(./Component/images/double.png);
+  background-position: cover;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-blend-mode: overlay;
+  background-color: #161515;
+
+}
+.down{
+  padding: 40%;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
